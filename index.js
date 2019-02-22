@@ -156,9 +156,6 @@ const showResult = operator => {
       case "/":
       result = value1 / value2;
       break;
-      case "%":
-      result = (value2*100)/value1;
-      break;
       default:
       break;
   }
@@ -169,10 +166,8 @@ let add = document.querySelector(".addition");
 let subtract = document.querySelector(".subtraction");
 let multiple = document.querySelector(".multiplication");
 let divide = document.querySelector(".division");
-let percent = document.querySelector(".percentage");
 
 add.addEventListener('click', () => showResult("+"));
 subtract.addEventListener('click', () => showResult("-"));
 multiple.addEventListener('click', () => showResult("*"));
 divide.addEventListener('click', () => showResult("/"));
-percent.addEventListener('click', () => showResult("%"));
