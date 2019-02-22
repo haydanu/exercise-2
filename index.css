@@ -2,6 +2,7 @@ body {
   text-align: center;
   box-sizing: inherit;
   margin: 0;
+  height: 100%;
 }
 
 .calculator {
@@ -65,6 +66,20 @@ body {
   padding: 20px 10px;
   box-shadow: 0 0 50px 0 #c0e2ff;
   border-radius: 20px;
+}
+
+.col.btn-group {
+  height: 84px;
+}
+
+#displayResult {
+  background-color: #bfffed45;
+  color: #000;
+  font-size: 44px;
+  padding: 8px 12px;
+  text-align: left;
+  height: 84px;
+  border-radius: 10px;
 }
 
 h3.title{

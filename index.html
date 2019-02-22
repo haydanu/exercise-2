@@ -51,13 +51,23 @@
           <h3 class="title">Menggunakan Input</h3>
           <div class="row">
             <div class="col">
-              Value Pertama :
-              <input type="number" id="firstValue" aria-label="Large" />
-              <br />
-              Value Kedua : <input type="number" id="secondValue" />
+              <form>
+                <div class="form-group row">
+                  <label class="col-sm-3 col-form-label">Angka 1</label>
+                  <div class="col-sm-9">
+                    <input type="number" id="firstValue" placeholder="masukan angka"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-3 col-form-label">Angka 2</label>
+                  <div class="col-sm-9">
+                    <input type="number" id="secondValue" placeholder="masukan angka"/>
+                  </div>
+                </div>
+              </form>
             </div>
 
-            <div class="col btn-group" role="group" aria-label="Basic example">
+            <div class="col btn-group" role="group">
               <button class="addition btn btn-primary">+</button>
               <button class="subtraction btn btn-secondary">-</button>
               <button class="multiplication btn btn-success">*</button>
@@ -65,7 +75,14 @@
               <button class="percentage btn btn-warning">%</button>
             </div>
             <div class="col">
-              Hasil : <input type="text" id="displayResult" readonly />
+              <form>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">Hasil</label>
+                  <div class="col-sm-10">
+                    <div id="displayResult"> </div>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>

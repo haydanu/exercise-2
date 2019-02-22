@@ -162,7 +162,7 @@ const showResult = operator => {
       default:
       break;
   }
-  document.getElementById('displayResult').value = result;
+  document.getElementById('displayResult').textContent = result;
 };
 
 let add = document.querySelector(".addition");
