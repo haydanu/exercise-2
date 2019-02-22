@@ -7,10 +7,8 @@ body {
 .calculator {
   border-radius: 12px;
   box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
-  max-width: 15em;
+  margin: 20px auto;
+  max-width: 240px;
   overflow: hidden;
 }
 
@@ -18,7 +16,7 @@ body {
   background-color: #222222;
   color: #fff;
   font-size: 1.714285714em;
-  padding: 0.5em 0.75em;
+  padding: 8px 12px;
   text-align: right;
   height: 70px;
 }
@@ -32,7 +30,7 @@ body {
 
 .calculator-content > * {
   background-color: #fff;
-  padding: 0.5em 1.25em;
+  padding: 8px 20px;
   position: relative;
   text-align: center;
 }
@@ -60,4 +58,3 @@ body {
   grid-column: -2;
   grid-row: 2 / span 4;
 }
-
