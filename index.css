@@ -61,7 +61,16 @@ body {
 }
 
 .second-calculator {
-  padding: 10px;
+  margin-top: 50px;
+  padding: 20px 10px;
   box-shadow: 0 0 50px 0 #c0e2ff;
   border-radius: 20px;
+}
+
+h3.title{
+  margin-bottom: 20px;
+}
+
+footer{
+  margin-top: 50px;
 }
