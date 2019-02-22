@@ -59,3 +59,9 @@ body {
   grid-column: -2;
   grid-row: 2 / span 4;
 }
+
+.second-calculator {
+  padding: 10px;
+  box-shadow: 0 0 50px 0 #c0e2ff;
+  border-radius: 20px;
+}

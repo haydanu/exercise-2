@@ -47,23 +47,25 @@
           </div>
         </div>
 
-        <div>
+        <div class="second-calculator">
           <h3>Menggunakan Input</h3>
-          <div>
-            <div>
-              Value Pertama : <input type="number" id="firstValue" aria-label="Large"/>
+          <div class="row">
+            <div class="col">
+              Value Pertama :
+              <input type="number" id="firstValue" aria-label="Large" />
               <br />
               Value Kedua : <input type="number" id="secondValue" />
             </div>
-            <div>
-              <button class="addition">+</button>
-              <button class="subtraction">-</button>
-              <button class="multiplication">*</button>
-              <button class="division">/</button>
-              <button class="percentage">%</button>
+
+            <div class="col btn-group" role="group" aria-label="Basic example">
+              <button class="addition btn btn-primary">+</button>
+              <button class="subtraction btn btn-secondary">-</button>
+              <button class="multiplication btn btn-success">*</button>
+              <button class="division btn btn-danger">/</button>
+              <button class="percentage btn btn-warning">%</button>
             </div>
-            <div>
-                Hasil : <input type="text" id="displayResult" readonly />
+            <div class="col">
+              Hasil : <input type="text" id="displayResult" readonly />
             </div>
           </div>
         </div>
